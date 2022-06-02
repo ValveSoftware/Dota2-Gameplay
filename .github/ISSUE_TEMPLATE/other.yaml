@@ -1,0 +1,13 @@
+name: other
+description: The other templates don't fit your problem?
+
+title: "Enter a short summary here!"
+
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description
+      placeholder: What is the problem?
+    validations:
+      required: true
