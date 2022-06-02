@@ -11,3 +11,11 @@ body:
       placeholder: What is the problem?
     validations:
       required: true
+
+  - type: input
+    id: match-id
+    attributes:
+      label: Example Match ID
+      placeholder: ex. 6575941888
+    validations:
+      required: false
