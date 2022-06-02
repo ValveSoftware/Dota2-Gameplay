@@ -9,7 +9,7 @@ body:
     id: name
     attributes:
       label: Cosmetic Item Name
-      placeholder: What version of our software are you running?
+      placeholder: ex. Mask of Inscrutable Zeal
     validations:
       required: true
     
@@ -17,7 +17,7 @@ body:
     id: desc
     attributes:
       label: Description
-      placeholder: ex. Mask of Inscrutable Zeal
+      placeholder: What is the problem?
     validations:
       required: true
 
@@ -28,3 +28,11 @@ body:
       placeholder: ex. 6575941888
     validations:
       required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      placeholder: Not required!
+    validations:
+      required: false
