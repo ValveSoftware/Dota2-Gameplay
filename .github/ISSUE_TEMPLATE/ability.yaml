@@ -24,7 +24,7 @@ body:
   - type: input
     id: match-id
     attributes:
-      label: Example Match ID and Timestamp
+      label: Example Match ID (and possibly Timestamp)
       placeholder: ex. 6575941888 - 03:22
     validations:
       required: true

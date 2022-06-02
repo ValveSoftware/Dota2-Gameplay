@@ -20,3 +20,11 @@ body:
       placeholder: What is the problem?
     validations:
       required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      placeholder: If you have any, paste them here!
+    validations:
+      required: false
