@@ -1,5 +1,5 @@
 ---
-name: Cosmetic Bug
+name: Cosmetic Bug (old)
 about: A costmetic item is missing particles, positioned wrong, etc.
 ---
 
