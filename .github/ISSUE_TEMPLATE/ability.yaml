@@ -1,0 +1,30 @@
+name: Abillity Bug
+description: An ability behaves in a way it probably shouldn't
+
+title: "Enter a short summary here!"
+labels: ["ability"]
+
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Ability name
+      placeholder: ex. Spell steal
+    validations:
+      required: true
+    
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description
+      placeholder: What is the problem?
+    validations:
+      required: true
+
+  - type: input
+    id: match-id
+    attributes:
+      label: Example Match ID and Timestamp
+      placeholder: ex. 6575941888 - 03:22
+    validations:
+      required: true

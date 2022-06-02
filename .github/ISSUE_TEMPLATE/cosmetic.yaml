@@ -1,7 +1,7 @@
 name: Cosmetic Bug
 description: A costmetic item is missing particles, positioned wrong, etc.
 
-title: "[Item Name]"
+title: "Enter a short summary here!"
 labels: ["cosmetic"]
 
 body:
@@ -12,7 +12,7 @@ body:
       placeholder: ex. Mask of Inscrutable Zeal
     validations:
       required: true
-    
+
   - type: textarea
     id: desc
     attributes:
@@ -33,6 +33,6 @@ body:
     id: screenshots
     attributes:
       label: Screenshots
-      placeholder: Not required!
+      placeholder: If you have any, paste them here!
     validations:
       required: false
