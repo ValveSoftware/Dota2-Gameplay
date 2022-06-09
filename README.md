@@ -9,12 +9,13 @@ Remember to be kind to everyone here - we all love the game and we're all trying
 This is an experiment for the team so please be understanding as we figure out what works and what doesn't with this.
 
 Thank you!
-  
+
 # Bug Tracker Update
 
 The bug tracker opened on June 2nd and with the update shipping tomorrow (June 8th), now feels like a good time to review how the experiment is going.
 
 ## First, some hard data:
+
 As I write this there are **592** open issues. We've closed out **14** issues with fixes that have either already shipped or will ship in the update tomorrow, and we've closed out **1** issue that was working as intended.
 
 - [[Replays] Permanent Status (BKB, invis, smoke)](https://github.com/jeffhill/Dota2/issues/53)
@@ -33,13 +34,10 @@ As I write this there are **592** open issues. We've closed out **14** issues wi
 - [A certain type of tree doesn't have the normal animation for when it's been cut.](https://github.com/jeffhill/Dota2/issues/38)
 - [Arc Warden - Basher never procs for clone](https://github.com/jeffhill/Dota2/issues/48) (Intended)
 
-
 If our goal were to get to zero issues in a traditional game dev burn-down style buglist then these numbers would be concerning. However, the goal of this tracker is to provide a sorted list of high value tasks that devs can pick up to improve the game. The tracker collects a very large number of open issues and by having the community vote to rank the issues, we generate a sorted list. When a dev looks at the sorted list they can pick up work that suits their skillset and the block of time they've got free. So a good way to judge the state of the tracker is "how valuable are the issues that are actually getting closed out?" Just skimming over the list of fixes above that are shipping it feels subjectively pretty valuable.
 
 Another way to evaluate the tracker is to take a look at the sorted list of issues the way a dev does:
 [The Sorted Issue List](https://github.com/jeffhill/Dota2/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc). To me that looks like a pretty solid list of tasks someone could work on that would make Dota better.
-
-
 
 ## Second, some things we've learned:
 
@@ -53,14 +51,12 @@ Another way to evaluate the tracker is to take a look at the sorted list of issu
 
 - Conversely, if multiple issues are submitted for the same problem then the problem will appear to have fewer votes than it deserves because they've been split between multiple issues. This is something that will just happen - but the community has been pretty good about identifying dupes and closing them.
 
-
 ## Finally, Thank You:
+
 Thank you to everyone who's submitted an issue, commented on an issue or voted for an issue. This tracker is only as good as you make it, and so far it's been a very valuable tool for making Dota a better game. Thank you for making this experiment a success so far!
 
 -- Jeff Hill
 
-
-
 ## **Links**
 
-- [**How To Submit A Bug Report?**](.github/HELP/HELP.md)
+- [**How To Submit A Bug Report?**](CONTRIBUTING.md)
