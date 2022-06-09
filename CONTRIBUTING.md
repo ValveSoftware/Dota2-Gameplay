@@ -31,13 +31,13 @@
 
 - Before submitting a new report, it is recommend that you search existing Issues to see if a report similar to yours has already been made. You can do this by using the **search bar** on the Issues page.
 
-  ![Search](search.png)
+  ![Search](docs/images/search.png)
 
 - If you find an existing Issue that is similar to what you wanted to report, you should just "**Thumbs Up**" that instead of creating a duplicate report.
 
 - You can "**Thumbs Up**" by clicking on the Emoji Icon on the top right corner of any comment.
 
-  ![Emoji](emoji.png)
+  ![Emoji](docs/images/emoji.png)
 
 - Additionally, you can add more information to existing Issues by commenting on those threads to help resolve them faster.
 
@@ -51,7 +51,7 @@
 
 - If you are logged in, you will be presented with a set of templates. You can pick one that matches the type of bug you want to report or you can click on "[**Open a blank issue**](https://github.com/jeffhill/Dota2/issues/new)" to start fresh.
 
-  ![Templates](templates.png)
+  ![Templates](docs/images/templates.png)
 
 - Try and submit as much information as possible about the bug you are trying to report. Some useful details can be:
 
