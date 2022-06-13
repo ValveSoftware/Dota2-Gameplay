@@ -1,7 +1,6 @@
 name: Cosmetic Bug
 description: A cosmetic item is missing particles, positioned wrong, etc.
 
-title: "Enter a short summary here!"
 labels: ["cosmetic"]
 
 body:

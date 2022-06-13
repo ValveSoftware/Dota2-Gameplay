@@ -1,7 +1,6 @@
 name: Incorrect tooltip
 description: A tooltip is wrong in some way - typos, spell amp does not affect damage numbers, talent changes not showing, etc.
 
-title: "Enter a short summary here!"
 labels: ["tooltip"]
 
 body:
