@@ -1,7 +1,6 @@
-name: Abillity Bug
+name: Ability Bug
 description: An ability behaves in a way it probably shouldn't!
 
-title: "Enter a short summary here!"
 labels: ["ability"]
 
 body:

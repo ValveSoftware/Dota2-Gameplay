@@ -1,7 +1,6 @@
 name: Item Bug
 description: An item behaves in a way it probably shouldn't!
 
-title: "Enter a short summary here!"
 labels: ["item"]
 
 body:
