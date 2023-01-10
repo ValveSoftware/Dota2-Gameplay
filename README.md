@@ -1,16 +1,43 @@
-# Dota2
+# ❔Read this FAQ before posting or using the Bug Tracker
+
+Q: I want to submit a bug report. What do I do?
+
+* **First,** you should use Search in issues to find out if the bug you want to report has been already posted before. If this is the case - **please, do not post duplicates**. Instead, just **upvote the original issue with "👍" reaction** and comment extra details if any.
+* And only then, if your issue was not posted before - you can start typing your post using [issue forms](https://github.com/ValveSoftware/Dota2-Gameplay/issues/new/choose) or a blank form. Try to provide as much information as possible about the bug. 
+
+Q: I don't have bugs to report. How do I use this bug tracker as a visitor? 
+
+* Just browse the repository and **upvote issues** you think need to be addressed by the dev team with higher priority **with "👍"**. Upvotes are essential part of this repository structure and we cannot stress enough how important they are for us to track what's really significant for the community.
+* Tip: use Search, Sort, Filters features for easier browsing.
+
+Q: I'm here for the first time. But there are thousands of issues opened, hard to navigate... How can I help the most in these circumstances? Where do I start?
+
+* A good start would be opening [Issues sorted by "👍" reactions page](https://github.com/ValveSoftware/Dota2-Gameplay/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc), browse as many pages as you can and **upvote with "👍"** those issues that you think are important. 
+
+Q: I can spare a few minutes every day/week/month. How can I help the most?
+
+* Bookmark [issues sorted by Newest page](https://github.com/ValveSoftware/Dota2-Gameplay/issues?q=is%3Aopen+is%3Aissue) and **upvote with "👍"** those issues that you think should be prioritized by the dev team. 
+* If somebody makes a mistake of making a duplicate post and you notice it, then please, kindly, ask them to close the issue with reference to the original issue so they can upvote the said issue instead. 
+
+Q: Can I post Quality of Life suggestions and not only bug reports?
+
+* We just look at this repository as "source of small-ish tasks a dev on Dota could do work on that would make the game better." The key points to a good issue here are that the work be important to you, that it be uncontroversial, and that it be a technical task that can be done and closed out. So far, it appears to work best as a channel for "please fix this gameplay bug" or "please do this small QoL thing" or "this econ item is broken".
+
+Q: Any rules to follow?
+* Just remember to be kind to everyone here - we all love the game and we're all trying to make it the best possible.
+
+---
+# 🧊🐸 Dota 2 Bug Tracker
 
 Public Bug Tracker for Dota2
 
 Please submit gameplay bugs for the Dota team to look at here. We'd like to use the "thumbs up" reaction as an upvote to track priority from the community, so to "+1" an issue please add a thumbs up reaction to it.
 
-Remember to be kind to everyone here - we all love the game and we're all trying to make it the best possible.
-
 This is an experiment for the team so please be understanding as we figure out what works and what doesn't with this.
 
-Thank you!
-  
-# Bug Tracker Update
+Thank you! 
+
+# Bug Tracker Update (07/June/2022)
 
 The bug tracker opened on June 2nd and with the update shipping tomorrow (June 8th), now feels like a good time to review how the experiment is going.
 
