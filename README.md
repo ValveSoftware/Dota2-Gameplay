@@ -1,13 +1,13 @@
-# ❔Read this FAQ before posting or using the Bug Tracker
+# ❔Read this FAQ before posting/using the Bug Tracker
 
 Q: I want to submit a bug report. What do I do?
 
 * **First,** you should use Search in issues to find out if the bug you want to report has been already posted before. If this is the case - **please, do not post duplicates**. Instead, just **upvote the original issue with "👍" reaction** and comment extra details if any.
-* And only then, if your issue was not posted before - you can start typing your post using [issue forms](https://github.com/ValveSoftware/Dota2-Gameplay/issues/new/choose) or a blank form. Try to provide as much information as possible about the bug. 
+* And only then, if your issue was not posted before - you can make your post using [issue forms](https://github.com/ValveSoftware/Dota2-Gameplay/issues/new/choose) or a blank form. Try to provide as much information as possible about the bug. 
 
 Q: I don't have bugs to report. How do I use this bug tracker as a visitor? 
 
-* Just browse the repository and **upvote issues** you think need to be addressed by the dev team with higher priority **with "👍"**. Upvotes are essential part of this repository structure and we cannot stress enough how important they are for us to track what's really significant for the community.
+* Just browse the repository and **upvote with "👍" issues** that you think need to be addressed by the dev team with higher priority. Upvotes are essential part of this repository structure and we cannot stress enough how important they are for us to track what's really significant for the community.
 * Tip: use Search, Sort, Filters features for easier browsing.
 
 Q: I'm here for the first time. But there are thousands of issues opened, hard to navigate... How can I help the most in these circumstances? Where do I start?
@@ -21,7 +21,7 @@ Q: I can spare a few minutes every day/week/month. How can I help the most?
 
 Q: Can I post Quality of Life suggestions and not only bug reports?
 
-* We just look at this repository as "source of small-ish tasks a dev on Dota could do work on that would make the game better." The key points to a good issue here are that the work be important to you, that it be uncontroversial, and that it be a technical task that can be done and closed out. So far, it appears to work best as a channel for "please fix this gameplay bug" or "please do this small QoL thing" or "this econ item is broken".
+* We look at this repository as a "source of small-ish tasks a dev on Dota could do work on that would make the game better." The key points to a good issue here are that the work be important to you, that it be uncontroversial, and that it be a technical task that can be done and closed out. So far, it appears to work best as a channel for "please fix this gameplay bug" or "please do this small QoL thing" or "this econ item is broken".
 
 Q: Any rules to follow?
 * Just remember to be kind to everyone here - we all love the game and we're all trying to make it the best possible.
@@ -88,6 +88,6 @@ Thank you to everyone who's submitted an issue, commented on an issue or voted f
 
 
 
-## **Links**
+# **Links**
 
 - [**How To Submit A Bug Report?**](.github/HELP/HELP.md)
