@@ -14,6 +14,8 @@ Q: I'm here for the first time. But there are thousands of issues opened, hard t
 
 * A good start would be opening [Issues sorted by "👍" reactions page](https://github.com/ValveSoftware/Dota2-Gameplay/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc), browse as many pages as you can and **upvote with "👍"** those issues that you think are important. 
 
+* Read this page: [How To Submit A Bug Report?](.github/HELP/HELP.md)
+
 Q: I can spare a few minutes every day/week/month. How can I help the most?
 
 * Bookmark [issues sorted by Newest page](https://github.com/ValveSoftware/Dota2-Gameplay/issues?q=is%3Aopen+is%3Aissue) and **upvote with "👍"** those issues that you think should be prioritized by the dev team. 
