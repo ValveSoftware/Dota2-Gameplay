@@ -1,0 +1,40 @@
+name: Incorrect tooltip
+description: A tooltip is wrong in some way - typos, spell amp does not affect damage numbers, talent changes not showing, etc.
+
+labels: ["tooltip"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ❗Before making a post.
+        * First, you should use Search in issues to find out if the bug you want to report has been already posted before. 
+          If this is the case - **please, do not post duplicates**. 
+          Instead, just **upvote with "👍" reaction** the original issue and comment extra details if any. 
+        * And only then, if your issue was not posted before - you can start typing your post using fields below and title above. 
+          Try to provide as much information as possible about the bug.
+        * Thank you!
+        
+  - type: input
+    id: name
+    attributes:
+      label: Hero and spell
+      placeholder: ex. Rubick - Spell steal
+    validations:
+      required: true
+    
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description
+      placeholder: What is the problem?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      placeholder: If you have any, paste them here!
+    validations:
+      required: false
