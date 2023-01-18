@@ -11,10 +11,11 @@ body:
         * First, you should use Search in issues to find out if the bug you want to report has been already posted before. 
           If this is the case - **please, do not post duplicates**. 
           Instead, just **upvote with "👍" reaction** the original issue and comment extra details if any. 
-        * And only then, if your issue was not posted before - you can start typing your post using fields below and title above. 
+        * Make sure you read the FAQ in the [**README**](https://github.com/ValveSoftware/Dota2-Gameplay#readme) page.
+        * If so, you can start typing your post using fields below and title above. 
           Try to provide as much information as possible about the bug.
         * Thank you!
-        
+
   - type: input
     id: name
     attributes:
@@ -22,11 +23,13 @@ body:
       placeholder: ex. Mask of Inscrutable Zeal
     validations:
       required: true
-
+    
   - type: textarea
     id: desc
     attributes:
       label: Description
+      description: |
+        What is the problem? Describe steps to reproduce the issue. Please attach videos or screenshots if possible.
       placeholder: What is the problem?
     validations:
       required: true
@@ -34,15 +37,19 @@ body:
   - type: input
     id: match-id
     attributes:
-      label: Example Match ID
-      placeholder: ex. 6575941888
+      label: Example Match ID (and possibly Timestamp)
+      placeholder: ex. 6575941888 - 03:22
     validations:
       required: true
 
-  - type: textarea
-    id: screenshots
+  - type: checkboxes
+    id: checklist
     attributes:
-      label: Screenshots
-      placeholder: If you have any, paste them here!
-    validations:
-      required: false
+      label: Checklist
+      description: |
+        Let's make sure you've properly done due diligence when reporting this issue!
+      options:
+        - label: I have searched the existing issues and my post is not a duplicate. 
+          required: true
+        - label: I read the FAQ.
+          required: true

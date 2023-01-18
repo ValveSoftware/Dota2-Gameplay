@@ -3,7 +3,7 @@
 Q: I want to submit a bug report. What do I do?
 
 * **First,** you should use Search in issues to find out if the bug you want to report has been already posted before. If this is the case - **please, do not post duplicates**. Instead, just **upvote the original issue with "👍" reaction** and comment extra details if any.
-* And only then, if your issue was not posted before - you can make your post using [issue forms](https://github.com/ValveSoftware/Dota2-Gameplay/issues/new/choose) or a blank form. Try to provide as much information as possible about the bug. 
+* And only then, if your issue was not posted before - you can make your post using [issue forms](https://github.com/ValveSoftware/Dota2-Gameplay/issues/new/choose). Try to provide as much information as possible about the bug. 
 
 Q: I don't have bugs to report. How do I use this bug tracker as a visitor? 
 
