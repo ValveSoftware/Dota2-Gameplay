@@ -1,0 +1,48 @@
+name: Quality of Life Suggestion
+description: No bug but something can work better. Important - it should be uncontroversial, rather small technical task.
+
+labels: ["qol-suggestion"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ❗Before making a post.
+        * First, you should use Search in issues to find out if the bug you want to report has been already posted before. 
+          If this is the case - **please, do not post duplicates**. 
+          Instead, just **upvote with "👍" reaction** the original issue and comment extra details if any. 
+        * Make sure you read the FAQ in the [**README**](https://github.com/ValveSoftware/Dota2-Gameplay#readme) page.
+        * If so, you can start typing your post using fields below and title above. 
+          Try to provide as much information as possible about the bug.
+        * Thank you!
+  
+  - type: input
+    id: name
+    attributes:
+      label: Summary
+      description: A short summary of what your suggestion request is.
+      placeholder: Enter summary
+    validations:
+      required: true
+
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description
+      description: >
+        What problem is your suggestion trying to solve? What becomes easier or possible when this suggestion is implemented?.
+      placeholder: Enter description
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: |
+        Let's make sure you've properly done due diligence when reporting this issue!
+      options:
+        - label: I have searched the existing issues and my post is not a duplicate. 
+          required: true
+        - label: I read the FAQ.
+          required: true
