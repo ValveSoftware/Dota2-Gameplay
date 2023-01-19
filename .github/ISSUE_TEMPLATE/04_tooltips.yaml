@@ -20,7 +20,7 @@ body:
     id: name
     attributes:
       label: Hero, Item, Spell, etc.
-      placeholder: ex. Rubick - Spell steal
+      placeholder: i.e. Rubick - Spell steal
     validations:
       required: true
     
@@ -38,7 +38,7 @@ body:
     id: match-id
     attributes:
       label: Example Match ID (and possibly Timestamp)
-      placeholder: ex. 6575941888 - 03:22
+      placeholder: i.e. 6575941888 - 03:22
     validations:
       required: true
 

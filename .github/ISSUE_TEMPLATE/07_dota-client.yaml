@@ -1,7 +1,7 @@
-name: Ability bug
-description: An ability behaves in a way it probably shouldn't!
+name: Dota 2 Client bug
+description: Something does not function properly outside the game, i.e. Main Menu or Watch Tab.
 
-labels: ["ability-bug"]
+labels: ["dota-client"]
 
 body:
   - type: markdown
@@ -19,8 +19,8 @@ body:
   - type: input
     id: name
     attributes:
-      label: Ability name
-      placeholder: i.e. Spell steal
+      label: Dota 2 Feature Name
+      placeholder: i.e. Fantasy Page
     validations:
       required: true
     
@@ -38,7 +38,7 @@ body:
     id: match-id
     attributes:
       label: Example Match ID (and possibly Timestamp)
-      placeholder: i.e. 6575941888 - 03:22
+      placeholder: ex. 6575941888 - 03:22
     validations:
       required: true
 

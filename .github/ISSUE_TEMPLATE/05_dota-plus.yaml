@@ -1,5 +1,7 @@
-name: Bug
-description: Report broken or incorrect behaviour.
+name: Dota Plus bug
+description: Something related to Dota Plus does not function properly.
+
+labels: ["dota-plus"]
 
 body:
   - type: markdown
@@ -13,6 +15,14 @@ body:
         * If so, you can start typing your post using fields below and title above. 
           Try to provide as much information as possible about the bug.
         * Thank you!
+
+  - type: input
+    id: name
+    attributes:
+      label: Dota Plus Feature Name
+      placeholder: i.e. Relics for Phantom Assassin
+    validations:
+      required: true
     
   - type: textarea
     id: desc

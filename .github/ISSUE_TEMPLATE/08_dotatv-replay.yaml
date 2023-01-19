@@ -1,7 +1,7 @@
-name: Ability Draft
-description: A problem in the Ability Draft game mode
+name: Dota TV, Replay Bug
+description: Bugs that only related to Dota TV or Replays.
 
-labels: ["ability-draft"]
+labels: ["dotatv-replay"]
 
 body:
   - type: markdown
@@ -30,10 +30,10 @@ body:
     id: match-id
     attributes:
       label: Example Match ID (and possibly Timestamp)
-      placeholder: ex. 6575941888 - 03:22
+      placeholder: i.e. 6575941888 - 03:22
     validations:
       required: true
-  
+
   - type: checkboxes
     id: checklist
     attributes:

@@ -1,7 +1,5 @@
-name: Ability bug
-description: An ability behaves in a way it probably shouldn't!
-
-labels: ["ability-bug"]
+name: Other
+description: The other templates don't fit your problem?
 
 body:
   - type: markdown
@@ -15,14 +13,6 @@ body:
         * If so, you can start typing your post using fields below and title above. 
           Try to provide as much information as possible about the bug.
         * Thank you!
-
-  - type: input
-    id: name
-    attributes:
-      label: Ability name
-      placeholder: i.e. Spell steal
-    validations:
-      required: true
     
   - type: textarea
     id: desc

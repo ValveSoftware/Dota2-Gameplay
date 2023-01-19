@@ -1,1 +1,11 @@
 blank_issues_enabled: false
+contact_links:
+  - name: Steam Support
+    about: >
+      This repository is not Steam Support. For problems with your account, please contact Steam Support instead. 
+    url: https://help.steampowered.com/en/wizard/HelpWithGame/?appid=570
+  - name: r/Dota2 subreddit 
+    about: >
+      This repository is not a forum either. 
+      Topics like cheating, smurfing, patch suggestions, venting are out of the scope and better suited for reddit posts.
+    url: https://www.reddit.com/r/DotA2/
