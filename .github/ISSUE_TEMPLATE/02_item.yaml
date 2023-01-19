@@ -1,5 +1,5 @@
-name: Item Bug
-description: An item behaves in a way it probably shouldn't!
+name: Item bug
+description: An item behaves in a way it probably should not.
 
 labels: ["item"]
 
@@ -14,7 +14,7 @@ body:
         * Make sure you read the FAQ in the [**README**](https://github.com/ValveSoftware/Dota2-Gameplay#readme) page.
         * If so, you can start typing your post using fields below and title above. 
           Try to provide as much information as possible about the bug.
-        * Thank you!
+        * Don't forget to upvote 👍 your own issue after posting. Thank you!
 
   - type: input
     id: name

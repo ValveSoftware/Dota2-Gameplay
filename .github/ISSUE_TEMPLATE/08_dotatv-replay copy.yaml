@@ -1,5 +1,5 @@
-name: Dota TV, Replay Bug
-description: Bugs that only related to Dota TV or Replays.
+name: Dota TV or Replays bug
+description: Bugs that are only related to Dota TV or Replays.
 
 labels: ["dotatv-replay"]
 
@@ -14,7 +14,7 @@ body:
         * Make sure you read the FAQ in the [**README**](https://github.com/ValveSoftware/Dota2-Gameplay#readme) page.
         * If so, you can start typing your post using fields below and title above. 
           Try to provide as much information as possible about the bug.
-        * Thank you!
+        * Don't forget to upvote 👍 your own issue after posting. Thank you!
     
   - type: textarea
     id: desc
