@@ -1,5 +1,9 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Linux and Mac Related Issues
+    about: >
+      Those issues should be post in Linux/Mac specific bug tracker instead which is just /Dota-2.
+    url: https://github.com/ValveSoftware/Dota-2
   - name: Steam Support
     about: >
       This repository is not Steam Support. For problems with your account, please contact Steam Support instead. 
