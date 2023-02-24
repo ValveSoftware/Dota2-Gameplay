@@ -14,7 +14,7 @@ body:
         * Make sure you read the FAQ in the [**README**](https://github.com/ValveSoftware/Dota2-Gameplay#readme) page.
         * If so, you can start typing your post using fields below and title above. 
           Try to provide as much information as possible about the bug.
-        * Don't forget to upvote 👍 your own issue after posting. Thank you!
+        * Make sure your post is easily searchable, i.e. use full standard hero names, full ability names.
   
   - type: input
     id: name
@@ -44,5 +44,11 @@ body:
       options:
         - label: I have searched the existing issues and my post is not a duplicate. 
           required: true
-        - label: I read the FAQ.
+        - label: I read the FAQ in the [**README**](https://github.com/ValveSoftware/Dota2-Gameplay#readme) page.
           required: true
+  
+  - type: markdown
+    attributes:
+      value: |
+        ### After making a post.
+        * Don't forget to upvote 👍 your own issue after posting. Thank you!
