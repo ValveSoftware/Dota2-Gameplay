@@ -1,0 +1,53 @@
+name: Other
+description: The other templates do not fit your problem?
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ❗Before making a post.
+        * First, you should use Search in issues to find out if the bug you want to report has been already posted before. 
+          If this is the case - **please, do not post duplicates**. 
+          Instead, just **upvote with "👍" reaction** the original issue and comment extra details if any. 
+        * Make sure you read the FAQ in the [**README**](https://github.com/ValveSoftware/Dota2-Gameplay#readme) page.
+        * If so, you can start typing your post using fields below and title above. 
+          Try to provide as much information as possible about the bug.
+        * Make sure your post is easily searchable, i.e. use full standard hero names, full ability names.
+    
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description
+      description: |
+        What is the problem? Describe steps to reproduce the issue. Please attach videos or screenshots if possible.
+      placeholder: What is the problem?
+    validations:
+      required: true
+
+  - type: input
+    id: match-id
+    attributes:
+      label: Example Match ID (and possibly Timestamp)
+      placeholder: i.e. 6575941888 - 03:22
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: |
+        Let's make sure you've properly done due diligence when reporting this issue!
+      options:
+        - label: I have searched the existing issues and my post is not a duplicate. 
+          required: true
+        - label: I read the FAQ in the [**README**](https://github.com/ValveSoftware/Dota2-Gameplay#readme) page.
+          required: true
+        - label: Other templates do not fit my problem. (This is important for correct labelling of the post)
+          require: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### After making a post.
+        * Don't forget to upvote 👍 your own issue after posting. Thank you!
